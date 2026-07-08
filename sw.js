@@ -1,6 +1,6 @@
 // Monelite service worker — offline cache.
 // When you update the app, bump the version number below so phones pick it up.
-const CACHE = "monelite-v1";
+const CACHE = "monelite-v2";
 const FILES = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./icon-180.png"];
 
 self.addEventListener("install", e => {
